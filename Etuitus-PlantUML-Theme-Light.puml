@@ -1,0 +1,156 @@
+' Etuitus – PlantUML Light Theme
+' Version: 1.0 (2025-11-08)
+' ------------------------------------------------------------
+' PALLETTE (Light)
+' primary        #0B63E5  ' Blue 600
+' primary-weak   #93C5FD  ' Blue 300 (areas, selections)
+' secondary      #6B7280  ' Slate 500 (muted text)
+' accent         #F59E0B  ' Amber 500 (highlights)
+' surface        #FFFFFF  ' White
+' surface-alt    #F8FAFC  ' Slate 50 (cards)
+' lines          #CBD5E1  ' Slate 300 (grid/borders)
+' text           #0F172A  ' Slate 900 (body text)
+' text-muted     #475569  ' Slate 600 (secondary text)
+'
+' GLOBAL -----------------------------------------------------
+skinparam backgroundColor #0F172A
+skinparam dpi 160
+skinparam shadowing false
+skinparam roundCorner 12
+skinparam handwritten false
+skinparam monochrome false
+
+' Typography
+skinparam DefaultFontName "Inter"
+skinparam DefaultFontSize 14
+skinparam FontColor #0F172A
+skinparam TitleFontColor #0F172A
+skinparam TitleFontSize 18
+
+' Lines & arrows
+skinparam LineColor #CBD5E1
+skinparam ArrowColor #0B63E5
+skinparam ArrowThickness 2
+
+' Links / URLs
+skinparam HyperlinkColor #0B63E5
+
+' STEREOTYPES (generic) -------------------------------------
+' Example usage: component "Gateway" <<extern>>
+skinparam component<<extern>> BackgroundColor #E0F2FE
+skinparam component<<extern>> BorderColor #93C5FD
+skinparam component<<extern>> FontColor #0F172A
+
+skinparam component<<critical>> BackgroundColor #FEF3C7
+skinparam component<<critical>> BorderColor #F59E0B
+skinparam component<<critical>> FontColor #7C2D12
+
+skinparam class<<entity>> BackgroundColor #EEF2FF
+skinparam class<<entity>> BorderColor #A5B4FC
+
+' SEQUENCE ---------------------------------------------------
+skinparam sequence {
+  ParticipantBackgroundColor #F8FAFC
+  ParticipantBorderColor #E2E8F0
+  ParticipantFontColor #0F172A
+  LifeLineBorderColor #CBD5E1
+  LifeLineBackgroundColor #FFFFFF
+  ArrowColor #0B63E5
+  GroupBorderColor #0B63E5
+  GroupBackgroundColor #EFF6FF
+  BoxBackgroundColor #F8FAFC
+  BoxBorderColor #E2E8F0
+  DividerBackgroundColor #F8FAFC
+  DividerBorderColor #E2E8F0
+}
+
+' CLASS ------------------------------------------------------
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #E2E8F0
+  ArrowColor #0B63E5
+  StereotypeFontColor #6B7280
+  AttributeFontColor #0F172A
+  AttributeIconSize 12
+}
+
+' COMPONENT --------------------------------------------------
+skinparam component {
+  BackgroundColor #FFFFFF
+  BorderColor #E2E8F0
+  ArrowColor #0B63E5
+}
+
+' PACKAGE ----------------------------------------------------
+skinparam package {
+  BackgroundColor #F8FAFC
+  BorderColor #E2E8F0
+}
+
+' ACTIVITY ---------------------------------------------------
+skinparam activity {
+  BackgroundColor #FFFFFF
+  BorderColor #E2E8F0
+  StartColor #0B63E5
+  EndColor #0B63E5
+  DiamondBackgroundColor #F8FAFC
+  DiamondBorderColor #CBD5E1
+  ArrowColor #0B63E5
+}
+
+' USECASE ----------------------------------------------------
+skinparam usecase {
+  BackgroundColor #FFFFFF
+  BorderColor #E2E8F0
+}
+
+' STATE ------------------------------------------------------
+skinparam state {
+  BackgroundColor #FFFFFF
+  BorderColor #E2E8F0
+  ArrowColor #0B63E5
+}
+
+' DEPLOYMENT / NODE -----------------------------------------
+skinparam node {
+  BackgroundColor #FFFFFF
+  BorderColor #E2E8F0
+}
+
+' NOTES ------------------------------------------------------
+skinparam note {
+  BackgroundColor #FFF7ED  ' warm sticky-note
+  BorderColor #FDBA74
+  FontColor #0F172A
+}
+
+' TIMING / MISC ---------------------------------------------
+skinparam timing {
+  BackgroundColor #FFFFFF
+  BorderColor #E2E8F0
+  ArrowColor #0B63E5
+}
+
+' HIGHLIGHT / ACCENTS ---------------------------------------
+' Use this style when you want to emphasize an element:
+' Example: rectangle "Important" <<highlight>>
+skinparam rectangle<<highlight>> BackgroundColor #FEF3C7
+skinparam rectangle<<highlight>> BorderColor #F59E0B
+skinparam rectangle<<highlight>> FontColor #7C2D12
+
+' SWIMLANES (activity partitions)
+skinparam partition {
+  BackgroundColor #F8FAFC
+  BorderColor #E2E8F0
+  FontColor #0F172A
+}
+
+' DEFAULT SIZES ---------------------------------------------
+skinparam MaxMessageSize 120
+
+' END OF THEME ----------------------------------------------
+' Usage:
+' @startuml
+' !include Etuitus-PlantUML-Theme-Light.puml
+' Alice -> Bob : Richiesta
+' @enduml
