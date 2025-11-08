@@ -1,0 +1,81 @@
+' Etuitus – PlantUML Light Theme (Compat)
+' Solo skinparam ampiamente supportati da versioni vecchie
+
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam dpi 160
+skinparam roundCorner 12
+skinparam monochrome false
+skinparam handwritten false
+
+' Font & testo (se il font non esiste, PlantUML fa fallback)
+skinparam DefaultFontName "Inter"
+skinparam DefaultFontSize 14
+skinparam FontColor #0F172A
+skinparam TitleFontColor #0F172A
+skinparam TitleFontSize 18
+
+' Linee & frecce
+skinparam LineColor #CBD5E1
+skinparam ArrowColor #0B63E5
+skinparam ArrowThickness 2
+skinparam HyperlinkColor #0B63E5
+
+' NOTE (sticky)
+skinparam NoteBackgroundColor #FFF7ED
+skinparam NoteBorderColor #FDBA74
+skinparam NoteFontColor #0F172A
+
+' PACKAGE
+skinparam PackageBackgroundColor #F8FAFC
+skinparam PackageBorderColor #E2E8F0
+
+' SEQUENCE
+skinparam ParticipantBackgroundColor #F8FAFC
+skinparam ParticipantBorderColor #E2E8F0
+skinparam ParticipantFontColor #0F172A
+skinparam LifeLineBorderColor #CBD5E1
+skinparam LifeLineBackgroundColor #FFFFFF
+skinparam SequenceGroupBorderColor #0B63E5
+skinparam SequenceGroupBackgroundColor #EFF6FF
+skinparam SequenceBoxBackgroundColor #F8FAFC
+skinparam SequenceBoxBorderColor #E2E8F0
+skinparam SequenceDividerBackgroundColor #F8FAFC
+skinparam SequenceDividerBorderColor #E2E8F0
+
+' CLASS
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #E2E8F0
+skinparam ClassArrowColor #0B63E5
+skinparam StereotypeFontColor #6B7280
+skinparam ClassAttributeFontColor #0F172A
+
+' COMPONENT
+skinparam ComponentBackgroundColor #FFFFFF
+skinparam ComponentBorderColor #E2E8F0
+skinparam ComponentArrowColor #0B63E5
+
+' ACTIVITY
+skinparam ActivityBackgroundColor #FFFFFF
+skinparam ActivityBorderColor #E2E8F0
+skinparam ActivityStartColor #0B63E5
+skinparam ActivityEndColor #0B63E5
+skinparam ActivityDiamondBackgroundColor #F8FAFC
+skinparam ActivityDiamondBorderColor #CBD5E1
+skinparam ActivityArrowColor #0B63E5
+
+' USECASE
+skinparam UsecaseBackgroundColor #FFFFFF
+skinparam UsecaseBorderColor #E2E8F0
+
+' STATE
+skinparam StateBackgroundColor #FFFFFF
+skinparam StateBorderColor #E2E8F0
+skinparam StateArrowColor #0B63E5
+
+' NODE / DEPLOYMENT
+skinparam NodeBackgroundColor #FFFFFF
+skinparam NodeBorderColor #E2E8F0
+
+' Impostazioni generali
+skinparam MaxMessageSize 120
